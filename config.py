@@ -1,4 +1,4 @@
 TICKER="AAPL"
 START_DATE="2020-01-01"
-SMA_WINDOW=20                   
+SMA_WINDOW=60                   
 END_DATE="2023-01-01"

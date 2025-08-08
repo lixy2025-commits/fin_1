@@ -20,7 +20,7 @@ def fetch_stock_data(ticker:str, start_date:str="2025-01-01")-> DataFrame:
         output_format="pandas",
         provider='yfinance'
     )
-    return output
+    return output.to_dataframe()
 
 def main():
     from openbb_core.provider.utils.errors import EmptyDataError
